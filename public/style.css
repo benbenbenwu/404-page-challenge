@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --gray-color-1: #333333;
+  --gray-color-2: #4f4f4f;
+  --gray-color-3: #bdbdbd;
+
+  --white-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 7.7rem;
+}
+
+.header {
+  padding: 4rem 0;
+  margin-bottom: 10rem;
+}
+
+.header-text {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 30rem;
+}
+
+.error-img-box {
+  width: 80%;
+}
+
+.error-img {
+  width: 100%;
+}
+
+.error-text-box {
+  font-family: "Space Mono", monospace;
+  line-height: 1.5;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  font-weight: 700;
+  color: var(--gray-color-1);
+  margin-bottom: 3.6rem;
+}
+
+.heading-sub {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--gray-color-2);
+  margin-bottom: 6.4rem;
+  padding-right: 32rem;
+}
+
+.btn {
+  width: 21.6rem;
+  height: 6.8rem;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--gray-color-1);
+  color: var(--white-color);
+}
+.footer {
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--gray-color-3);
+}
+
+@media (max-width: 23.44em) {
+  body {
+    padding: 0 2.4rem;
+  }
+  .header {
+    margin-bottom: 2.4rem;
+  }
+  .main {
+    grid-template-columns: 1fr;
+    margin-bottom: 9rem;
+  }
+  .error-img-box {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+  .error-text-box {
+    grid-row: 2 / 3;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+    margin-bottom: 3rem;
+  }
+  .heading-sub {
+    font-size: 1.8rem;
+    margin-bottom: 6.6rem;
+    padding-right: 0;
+  }
+  .footer {
+    margin-bottom: 2.4rem;
+  }
+}
