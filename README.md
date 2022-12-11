@@ -1,4 +1,4 @@
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">404-page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://github.com/benbenbenwu/404-page-challenge">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://404-page-challenge-ben.netlify.app">
       Solution
     </a>
     <span> | </span>
@@ -22,5 +22,4 @@
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@your-username](https://github.com/benbenbenwu)
